@@ -15,7 +15,11 @@ If you haven't already cloned the repository, do so using the following command:
     ```sh
     git clone https://github.com/yourusername/cpp-rest-api.git
     cd cpp-rest-api
-
+    ```
+    
+    Get submodules
+    
+    ```sh
     git submodule update --init --recursive
     ```
 

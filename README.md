@@ -9,25 +9,25 @@ This is a simple REST API service built in C++ using the header-only library `cp
 
 ## Installation
 
-1. **Clone the Repository** (Optional):
+**Clone the Repository** (Optional):
 If you haven't already cloned the repository, do so using the following command:
 
-    ```sh
-    git clone https://github.com/yourusername/cpp-rest-api.git
-    cd cpp-rest-api
-    ```
+```sh
+git clone https://github.com/yourusername/cpp-rest-api.git
+cd cpp-rest-api
+```
     
-    Get submodules
+Get submodules
     
-    ```sh
-    git submodule update --init --recursive
-    ```
+```sh
+git submodule update --init --recursive
+```
 
 ## Compilation
 To compile the application, use the following command:
 
 ```sh
-    g++ -std=c++11 -o my_rest_service main.cpp
+g++ -std=c++11 -o my_rest_service main.cpp
 ```
 
 ## Running the Service
